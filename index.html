@@ -78,7 +78,7 @@
                                     <div class="glass-opt-btn" onclick="shareToSocial(this, 'facebook')"><i class="fa-brands fa-facebook-f"></i><span>Facebook</span></div>
                                 </div>
                                 <div class="glass-copy-row">
-                                    <input type="text" class="glass-copy-input lowercase-url" readonly value="https://b2b.rorraxy.com/product?id=${pId}">
+                                    <input type="text" class="glass-copy-input lowercase-url" readonly value="https://bb.rorraxy.com/product?id=${pId}">
                                     <button class="glass-copy-btn" onclick="copyLinkDirectSilent(this)">COPY</button>
                                 </div>
                             </div>
@@ -98,10 +98,10 @@
 
     <style>
         :root {
-            --bg-retail: #030305;
-            --card-retail: #0e0e12;
-            --header-retail: rgba(8, 8, 10, 0.98);
-            --footer-retail: rgba(8, 8, 10, 0.98);
+            --bg-wholesale: #030305;
+            --card-wholesale: #0e0e12;
+            --header-wholesale: rgba(8, 8, 10, 0.98);
+            --footer-wholesale: rgba(8, 8, 10, 0.98);
             --gold-gradient: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
             --gold-solid: #d4af37;
             --pink-love: #ff2a85;
@@ -112,7 +112,7 @@
 
         html, body { 
             width: 100%; max-width: 100%; overflow-x: hidden; 
-            background: var(--bg-retail) !important; 
+            background: var(--bg-wholesale) !important; 
             color: var(--text-white); font-family: var(--font-main); 
             min-height: 100vh; font-size: 15px;
             -webkit-font-smoothing: antialiased;
@@ -125,7 +125,7 @@
 
         header.app-header {
             position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
-            background: var(--header-retail); backdrop-filter: blur(15px);
+            background: var(--header-wholesale); backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
             display: flex; flex-direction: column; border: none !important; box-shadow: none !important;
             transform: translateZ(0);
@@ -164,7 +164,7 @@
             height: 100%; flex-shrink: 0; border: none !important; gap: 2px;
         }
         .header-corner-flag-img { width: 24px; height: 15px; object-fit: cover; border-radius: 2px; border: 1px solid rgba(255,255,255,0.3); }
-        .header-retail-txt { font-size: 0.55rem; font-weight: 700; color: #ffffff !important; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1; }
+        .header-wholesale-txt { font-size: 0.55rem; font-weight: 700; color: #ffffff !important; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1; }
 
         .inline-search-section {
             display: none; padding: 12px 16px; background: #08080a; text-align: center; border-bottom: 1px solid rgba(212,175,55,0.2);
@@ -252,7 +252,7 @@
         }
 
         .product-card {
-            break-inside: avoid; margin-bottom: 5px !important; background: var(--card-retail); 
+            break-inside: avoid; margin-bottom: 5px !important; background: var(--card-wholesale); 
             border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.5); 
             display: inline-block; width: 100%; transition: transform 0.2s ease, border-color 0.2s ease; 
             border: 1px solid rgba(255,255,255,0.05); position: relative;
@@ -302,7 +302,7 @@
         .glass-copy-btn { background: var(--gold-gradient); border: none; color: #000; font-weight: 700; font-size: 0.55rem; padding: 5px 10px; border-radius: 6px; cursor: pointer; }
 
         nav.bottom-nav {
-            position: fixed; bottom: 0; left: 0; width: 100%; background: var(--footer-retail);
+            position: fixed; bottom: 0; left: 0; width: 100%; background: var(--footer-wholesale);
             display: flex; justify-content: space-around; align-items: center; padding: 8px 6px;
             z-index: 1000; backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
@@ -374,7 +374,7 @@
             </div>
             <div class="header-flag-corner">
                 <img id="cornerFlagImg" src="https://flagcdn.com/w80/bd.png" alt="Country Flag" class="header-corner-flag-img" title="Visitor Country">
-                <span class="header-retail-txt" id="headerCountryWholesaleTxt">WHOLESALE</span>
+                <span class="header-wholesale-txt" id="headerCountryWholesaleTxt">WHOLESALE</span>
             </div>
         </div>
     </header>
@@ -418,7 +418,7 @@
 
             <h2 class="luxury-modal-title-top" onclick="returnHomeDirect(event)">USER PORTAL</h2>
             <div class="luxury-options-fullstack">
-                <div class="luxury-action-btn-item" onclick="location.href='https://b.rorraxy.com/a'">
+                <div class="luxury-action-btn-item" onclick="location.href='https://bb.rorraxy.com/a'">
                     <div class="btn-left-part">
                         <i class="fa-solid fa-user"></i>
                         <div class="btn-text-stack">
@@ -492,7 +492,7 @@
                     <div class="glass-opt-btn" onclick="shareToSocial(this, 'facebook')"><i class="fa-brands fa-facebook-f"></i><span>Facebook</span></div>
                 </div>
                 <div class="glass-copy-row">
-                    <input type="text" class="glass-copy-input lowercase-url" readonly value="https://b2b.rorraxy.com/product?id=PROD-RRX-001">
+                    <input type="text" class="glass-copy-input lowercase-url" readonly value="https://bb.rorraxy.com/product?id=PROD-RRX-001">
                     <button class="glass-copy-btn" onclick="copyLinkDirectSilent(this)">COPY</button>
                 </div>
             </div>
@@ -505,7 +505,7 @@
             <i class="fa-solid fa-newspaper" style="background:var(--gold-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent;"></i>
             <span>Journal</span>
         </a>
-        <a href="https://b.rorraxy.com/c" class="nav-item">
+        <a href="https://bb.rorraxy.com/c" class="nav-item">
             <i class="fa-solid fa-border-all"></i>
             <span>Category</span>
         </a>
@@ -517,7 +517,7 @@
             <i class="fa-solid fa-magnifying-glass"></i>
             <span>AI Search</span>
         </div>
-        <a href="https://b.rorraxy.com/j" class="nav-item" style="text-decoration:none;">
+        <a href="https://bb.rorraxy.com/j" class="nav-item" style="text-decoration:none;">
             <div class="cart-icon-box">
                 <svg class="cart-custom-svg" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
                 <!-- কার্ট শূন্য থাকলে এটি স্বয়ংক্রিয়ভাবে হাইড থাকবে -->
@@ -563,7 +563,7 @@
         });
 
         function openFirebaseProductDetail(productId) {
-            window.location.href = `https://b2b.rorraxy.com/product?id=${encodeURIComponent(productId)}`;
+            window.location.href = `https://bb.rorraxy.com/product?id=${encodeURIComponent(productId)}`;
         }
 
         function returnHomeDirect(event) {
@@ -641,7 +641,7 @@
             if(searchInput) {
                 let query = searchInput.value;
                 if(query.trim() !== "") {
-                    window.location.href = `https://b2b.rorraxy.com/product?search=${encodeURIComponent(query)}`;
+                    window.location.href = `https://bb.rorraxy.com/product?search=${encodeURIComponent(query)}`;
                 }
             }
         }
